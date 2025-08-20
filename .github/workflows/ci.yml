@@ -20,4 +20,5 @@ jobs:
       - name: Run tests (brace yourself)
         run: |
           . .venv/bin/activate
+          export PYTHONPATH="$PWD"
           pytest -q
