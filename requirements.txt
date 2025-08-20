@@ -1,0 +1,5 @@
+# requirements.txt
+# Minimal dependencies for this chaotic template.
+
+pytest==8.3.2    # because tests make us look professional
+requests==2.32.3 # included just in case you accidentally write an API client
