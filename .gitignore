@@ -1,1 +1,21 @@
+# Because you never wanted to commit these anyway
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# OS garbage
+.DS_Store
+
+# Logs you’ll never read
+*.log
+
+# Coverage reports proving you don’t write enough tests
+.coverage
+htmlcov/
+
+# Node junk, because somehow every project drags in JS
 node_modules/
+dist/
+build/
+
